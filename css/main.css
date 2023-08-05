@@ -1,0 +1,151 @@
+.place{
+    width: 1400px;
+    display: block;
+    margin: 0  auto;
+}
+.places{
+    display: none;
+    transform: translate(-800px);
+}
+.container{
+    width: 1400px;
+    margin: 0  auto;
+}
+.place__banner{
+    width: 730px;
+height: 1024px;
+border: 1px;
+position: relative;
+background-color: #455D7A;
+}
+.place__banner--img{
+    object-fit: cover;
+    position: absolute;
+    top: 300px;
+    left: 120px;
+}
+.place__tit{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 700px;
+    left: 25%;
+    font-size: 36px;
+
+}
+.pppp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.place__info{
+    width: 730px;
+    height: 1024px;
+    border: 1px;
+    position: relative;
+    background-color: #233142;
+}
+.title{
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    margin-top: 160px;
+    margin-bottom: 70px;
+}
+.inp{
+    padding: 13px 65px;
+    color: #fff;
+    margin: 20px;
+    margin-left: 210px;
+    border: 3px solid #000;
+    background-color:  #233142;
+}
+
+.pass{
+    padding: 13px 65px;
+    color: #fff;
+    margin: 20px;
+    margin-left: 210px;
+    border: 3px solid #000;
+    background-color:  #233142;
+}
+tr{
+    text-align: center;
+}
+.btn{
+    color: #fff;
+    padding: 13px 130px;
+    margin-left: 210px;
+    border:none;
+    border-radius: 15px;
+    background-color:  #f95959;
+}
+.box__span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    Width:300px;
+    Height:40px;
+    margin-left: 205px;
+    margin-top: 40px;
+    border:1px solid #000;
+    border-radius: 15px;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+.imm{
+    margin: 12px;
+}
+.linkk{
+    text-decoration: underline;
+    color: #fff;
+    position: absolute;
+    bottom: 380px;
+    left: 260px;
+}
+.ceck__box{
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+
+}
+.modal{
+    width: 350px;
+    height: 150px;  
+   position: relative;
+   position: absolute;
+   left: 450px;
+    border: 1px solid #000;
+    transform: translateY(-300px);
+    transition: all ease 0.900s;
+}
+.modal__open{
+    transform: translateY(0);
+}
+.modall{
+    width: 350px;
+    height: 150px;
+   position: relative;
+   position: absolute;
+   left: 450px;
+    border: 1px solid #000;
+    transform: translateY(-400px);
+    transition: all ease 0.900s;
+}
+.modall__open{
+    transform: translateY(0);
+}
+.mo__b{
+    padding: 13px 35px;
+    color: #000;
+
+    margin-left: 210px;
+    border: 1px solid #000;
+    background-color:  #fff;
+}
+.modal_te{
+    text-align: center;
+}
+
